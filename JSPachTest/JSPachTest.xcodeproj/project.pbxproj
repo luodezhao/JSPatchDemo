@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD34F391D30D24400BED78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F381D30D24400BED78D /* main.m */; };
+		EDD34F3C1D30D24400BED78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F3B1D30D24400BED78D /* AppDelegate.m */; };
+		EDD34F3F1D30D24400BED78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F3E1D30D24400BED78D /* ViewController.m */; };
+		EDD34F441D30D24400BED78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD34F431D30D24400BED78D /* Assets.xcassets */; };
+		EDD34F471D30D24400BED78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD34F451D30D24400BED78D /* LaunchScreen.storyboard */; };
+		EDD34F521D30D24400BED78D /* JSPachTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F511D30D24400BED78D /* JSPachTestTests.m */; };
+		EDD34F5D1D30D24400BED78D /* JSPachTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F5C1D30D24400BED78D /* JSPachTestUITests.m */; };
+		EDD34F6E1D30D27900BED78D /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD34F6C1D30D27900BED78D /* JPEngine.m */; };
+		EDD34F6F1D30D27900BED78D /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = EDD34F6D1D30D27900BED78D /* JSPatch.js */; };
+		EDD34F711D30DA2200BED78D /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = EDD34F701D30D4BB00BED78D /* demo.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD34F4E1D30D24400BED78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD34F2C1D30D24400BED78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD34F331D30D24400BED78D;
+			remoteInfo = JSPachTest;
+		};
+		EDD34F591D30D24400BED78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD34F2C1D30D24400BED78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD34F331D30D24400BED78D;
+			remoteInfo = JSPachTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDD34F341D30D24400BED78D /* JSPachTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPachTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD34F381D30D24400BED78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD34F3A1D30D24400BED78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDD34F3B1D30D24400BED78D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDD34F3D1D30D24400BED78D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDD34F3E1D30D24400BED78D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDD34F431D30D24400BED78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD34F461D30D24400BED78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDD34F481D30D24400BED78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD34F4D1D30D24400BED78D /* JSPachTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPachTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD34F511D30D24400BED78D /* JSPachTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPachTestTests.m; sourceTree = "<group>"; };
+		EDD34F531D30D24400BED78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD34F581D30D24400BED78D /* JSPachTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPachTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD34F5C1D30D24400BED78D /* JSPachTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPachTestUITests.m; sourceTree = "<group>"; };
+		EDD34F5E1D30D24400BED78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD34F6B1D30D27900BED78D /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		EDD34F6C1D30D27900BED78D /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		EDD34F6D1D30D27900BED78D /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		EDD34F701D30D4BB00BED78D /* demo.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = demo.js; path = JSPatch/demo.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD34F311D30D24400BED78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F4A1D30D24400BED78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F551D30D24400BED78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD34F2B1D30D24400BED78D = {
+			isa = PBXGroup;
+			children = (
+				EDD34F701D30D4BB00BED78D /* demo.js */,
+				EDD34F6A1D30D27900BED78D /* JSPatch */,
+				EDD34F361D30D24400BED78D /* JSPachTest */,
+				EDD34F501D30D24400BED78D /* JSPachTestTests */,
+				EDD34F5B1D30D24400BED78D /* JSPachTestUITests */,
+				EDD34F351D30D24400BED78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD34F351D30D24400BED78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F341D30D24400BED78D /* JSPachTest.app */,
+				EDD34F4D1D30D24400BED78D /* JSPachTestTests.xctest */,
+				EDD34F581D30D24400BED78D /* JSPachTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD34F361D30D24400BED78D /* JSPachTest */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F3A1D30D24400BED78D /* AppDelegate.h */,
+				EDD34F3B1D30D24400BED78D /* AppDelegate.m */,
+				EDD34F3D1D30D24400BED78D /* ViewController.h */,
+				EDD34F3E1D30D24400BED78D /* ViewController.m */,
+				EDD34F431D30D24400BED78D /* Assets.xcassets */,
+				EDD34F451D30D24400BED78D /* LaunchScreen.storyboard */,
+				EDD34F481D30D24400BED78D /* Info.plist */,
+				EDD34F371D30D24400BED78D /* Supporting Files */,
+			);
+			path = JSPachTest;
+			sourceTree = "<group>";
+		};
+		EDD34F371D30D24400BED78D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F381D30D24400BED78D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDD34F501D30D24400BED78D /* JSPachTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F511D30D24400BED78D /* JSPachTestTests.m */,
+				EDD34F531D30D24400BED78D /* Info.plist */,
+			);
+			path = JSPachTestTests;
+			sourceTree = "<group>";
+		};
+		EDD34F5B1D30D24400BED78D /* JSPachTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F5C1D30D24400BED78D /* JSPachTestUITests.m */,
+				EDD34F5E1D30D24400BED78D /* Info.plist */,
+			);
+			path = JSPachTestUITests;
+			sourceTree = "<group>";
+		};
+		EDD34F6A1D30D27900BED78D /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				EDD34F6B1D30D27900BED78D /* JPEngine.h */,
+				EDD34F6C1D30D27900BED78D /* JPEngine.m */,
+				EDD34F6D1D30D27900BED78D /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD34F331D30D24400BED78D /* JSPachTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD34F611D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTest" */;
+			buildPhases = (
+				EDD34F301D30D24400BED78D /* Sources */,
+				EDD34F311D30D24400BED78D /* Frameworks */,
+				EDD34F321D30D24400BED78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPachTest;
+			productName = JSPachTest;
+			productReference = EDD34F341D30D24400BED78D /* JSPachTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD34F4C1D30D24400BED78D /* JSPachTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD34F641D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTestTests" */;
+			buildPhases = (
+				EDD34F491D30D24400BED78D /* Sources */,
+				EDD34F4A1D30D24400BED78D /* Frameworks */,
+				EDD34F4B1D30D24400BED78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD34F4F1D30D24400BED78D /* PBXTargetDependency */,
+			);
+			name = JSPachTestTests;
+			productName = JSPachTestTests;
+			productReference = EDD34F4D1D30D24400BED78D /* JSPachTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDD34F571D30D24400BED78D /* JSPachTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD34F671D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTestUITests" */;
+			buildPhases = (
+				EDD34F541D30D24400BED78D /* Sources */,
+				EDD34F551D30D24400BED78D /* Frameworks */,
+				EDD34F561D30D24400BED78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD34F5A1D30D24400BED78D /* PBXTargetDependency */,
+			);
+			name = JSPachTestUITests;
+			productName = JSPachTestUITests;
+			productReference = EDD34F581D30D24400BED78D /* JSPachTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD34F2C1D30D24400BED78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaobaishiji;
+				TargetAttributes = {
+					EDD34F331D30D24400BED78D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 29UTMF85RQ;
+					};
+					EDD34F4C1D30D24400BED78D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDD34F331D30D24400BED78D;
+					};
+					EDD34F571D30D24400BED78D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDD34F331D30D24400BED78D;
+					};
+				};
+			};
+			buildConfigurationList = EDD34F2F1D30D24400BED78D /* Build configuration list for PBXProject "JSPachTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD34F2B1D30D24400BED78D;
+			productRefGroup = EDD34F351D30D24400BED78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD34F331D30D24400BED78D /* JSPachTest */,
+				EDD34F4C1D30D24400BED78D /* JSPachTestTests */,
+				EDD34F571D30D24400BED78D /* JSPachTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD34F321D30D24400BED78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD34F711D30DA2200BED78D /* demo.js in Resources */,
+				EDD34F471D30D24400BED78D /* LaunchScreen.storyboard in Resources */,
+				EDD34F441D30D24400BED78D /* Assets.xcassets in Resources */,
+				EDD34F6F1D30D27900BED78D /* JSPatch.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F4B1D30D24400BED78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F561D30D24400BED78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD34F301D30D24400BED78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD34F3F1D30D24400BED78D /* ViewController.m in Sources */,
+				EDD34F6E1D30D27900BED78D /* JPEngine.m in Sources */,
+				EDD34F3C1D30D24400BED78D /* AppDelegate.m in Sources */,
+				EDD34F391D30D24400BED78D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F491D30D24400BED78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD34F521D30D24400BED78D /* JSPachTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD34F541D30D24400BED78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD34F5D1D30D24400BED78D /* JSPachTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD34F4F1D30D24400BED78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD34F331D30D24400BED78D /* JSPachTest */;
+			targetProxy = EDD34F4E1D30D24400BED78D /* PBXContainerItemProxy */;
+		};
+		EDD34F5A1D30D24400BED78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD34F331D30D24400BED78D /* JSPachTest */;
+			targetProxy = EDD34F591D30D24400BED78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD34F451D30D24400BED78D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD34F461D30D24400BED78D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD34F5F1D30D24400BED78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD34F601D30D24400BED78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD34F621D30D24400BED78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JSPachTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDD34F631D30D24400BED78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JSPachTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDD34F651D30D24400BED78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPachTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPachTest.app/JSPachTest";
+			};
+			name = Debug;
+		};
+		EDD34F661D30D24400BED78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSPachTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPachTest.app/JSPachTest";
+			};
+			name = Release;
+		};
+		EDD34F681D30D24400BED78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPachTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPachTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDD34F691D30D24400BED78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPachTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaobaishiji.JSPachTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSPachTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD34F2F1D30D24400BED78D /* Build configuration list for PBXProject "JSPachTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD34F5F1D30D24400BED78D /* Debug */,
+				EDD34F601D30D24400BED78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD34F611D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD34F621D30D24400BED78D /* Debug */,
+				EDD34F631D30D24400BED78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDD34F641D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD34F651D30D24400BED78D /* Debug */,
+				EDD34F661D30D24400BED78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDD34F671D30D24400BED78D /* Build configuration list for PBXNativeTarget "JSPachTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD34F681D30D24400BED78D /* Debug */,
+				EDD34F691D30D24400BED78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD34F2C1D30D24400BED78D /* Project object */;
+}
